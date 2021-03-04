@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: "nazare", sans-serif;
-    font-weight: 100;
+    font-family: "masqualero", sans-serif;
+    font-weight: 700;
     font-style: normal;
 
     display: flex;
@@ -32,8 +32,19 @@ h2 {
     opacity: 0.6;
 }
 
+.backgroundimage {
+    box-sizing: border-box;
+    display: flex;
+    flex: 100%;
+    max-width: 100%;
+}
+
 @media (min-width: 700px) {
     #time {
         font-size: 6rem;
+    }
+    body {
+        flex: 100%;
+        max-width: 100%;
     }
 }

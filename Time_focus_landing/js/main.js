@@ -1,9 +1,9 @@
 //DOM elements
 
 const time = document.getElementById('time'),
-  greeting = document.getElementById('greeting'),
+ greeting = document.getElementById('greeting'),
   name = document.getElementById('name'),
-  focus = document.getElementById('focus'),
+  focus = document.getElementById('focus');
 
 // Options
 const showAmPm = true;
@@ -111,3 +111,5 @@ showTime();
 setBgGreet();
 getName();
 getFocus();
+setName();
+setFocus();
